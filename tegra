@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoSmart Water</title>
+  <link rel="stylesheet" href="umba.css" />
+</head>
+
+<body>
+  <header class="navbar">
+    <ul>
+      <li>HOME</li>
+      <li>FEATURES</li>
+      <li>PRICING</li>
+      <li>CONTACT US</li>
+    </ul>
+  </header>
+
+  <center><h1 class="H1">EcoSmart Water</h1></center>
+
+  <img class="image" src="htmil_mmm.webp" alt="Product Image" />
+
+  <button class="button">BUY NOW</button>
+
+  <div class="price-calculator">
+    <h2>Select Options</h2>
+
+    <input type="radio" name="color" id="color-red" />
+    <label for="color-red">Red [R26]</label><br />
+
+    <input type="radio" name="color" id="color-blue" />
+    <label for="color-blue">Blue [R27]</label><br />
+
+    <input type="radio" name="color" id="color-green" />
+    <label for="color-green">Green [R37]</label><br />
+
+    <input type="radio" name="color" id="color-brown" />
+    <label for="color-brown">Brown [R30]</label><br />
+
+    <input type="radio" name="color" id="color-pink" />
+    <label for="color-pink">Pink [R29]</label><br />
+
+    <input type="radio" name="color" id="color-yellow" />
+    <label for="color-yellow">Yellow [R38]</label><br />
+
+    <input type="checkbox" id="engraving" />
+    <label for="engraving">Engraving [+R5]</label><br />
+
+    <input type="checkbox" id="packing" />
+    <label for="packing">Packing [+R4]</label><br />
+
+    <div class="price-output">
+      <p>Please select color and features.</p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <h3>Contact Us</h3>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+
+      <label class="terms-label">
+        <input type="checkbox" required />
+        I agree to the Terms and Conditions
+      </label>
+
+      <button type="submit">Send Message</button>
+    </form>
+    <p>&copy; 2025 EcoSmart Water. Customers' needs and expectations are met.</p>
+  </footer>
+</body>
+</html>
